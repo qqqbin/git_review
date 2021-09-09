@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', crudapp.views.base, name='base'),
     path('new/',crudapp.views.new, name='new'),
+    path('new/create/', crudapp.views.create, name='create'),
 ]
